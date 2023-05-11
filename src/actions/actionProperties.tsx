@@ -35,6 +35,7 @@ import {
   FreedrawIcon,
   FontFamilyNormalIcon,
   FontFamilyCodeIcon,
+  FontFamilyChineseIcon,
   TextAlignLeftIcon,
   TextAlignCenterIcon,
   TextAlignRightIcon,
@@ -700,6 +701,11 @@ export const actionChangeFontFamily = register({
         value: FONT_FAMILY.Cascadia,
         text: t("labels.code"),
         icon: FontFamilyCodeIcon,
+      },
+      {
+        value: FONT_FAMILY.chinese,
+        text: "中文",
+        icon: FontFamilyChineseIcon,
       },
     ];
 
